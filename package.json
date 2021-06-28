@@ -1,0 +1,63 @@
+{
+  "name": "ohmytrash-api",
+  "version": "1.0.0",
+  "description": "API service for Oh My Trash App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/saiaungpyae/recyglo-dashboard-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "async": "^2.6.1",
+    "aws-sdk": "^2.701.0",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.17.1",
+    "faker": "^4.1.0",
+    "firebase-admin": "^9.4.2",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.6",
+    "hbs": "^4.1.1",
+    "joi": "^14.3.1",
+    "json2csv": "^4.5.4",
+    "jsonwebtoken": "^8.5.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-paginate-v2": "^1.3.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "onesignal-node": "^3.0.2",
+    "sharp": "^0.25.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
